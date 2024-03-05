@@ -21,13 +21,13 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile1.jpeg"
   name             : "Junyu Guo"
   pronouns         : # example: "he/him"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : "Incoming IEOR Ph.D student"
+  location         : "China (Soon in U.S.A)"
   employer         : "Tsinghua University"
-  uri              : # URL
+  uri              :  https://jamesjunyuguo.github.io/# URL
   email            : "guojyjames@gmail.com" 
 
   # Academic websites
