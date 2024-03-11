@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Junyu Guo (James)/ About Me"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -27,7 +27,7 @@ author:
   bio              : "Incoming IEOR Ph.D student"
   location         : "China (Soon in U.S.A)"
   employer         : "Tsinghua University"
-  uri              : https://jamesjunyuguo.github.io/junyuguo.github.io/# URL
+  uri              : https://JamesJunyuGuo.github.io/# URL
   email            : "guojyjames@gmail.com" 
 
   # Academic websites
