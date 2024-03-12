@@ -9,12 +9,17 @@ redirect_from:
 
 
 I'm a senior undergraduate student from [Department of Mathematical Science](https://www.math.tsinghua.edu.cn/). My research interest includes data-driven sequential decision making, game theory, stochastic control and generating model.
-During my undergraduate studies, I am been advised by [Prof. Chenxu Li](https://en.gsm.pku.edu.cn/faculty/cxli/), [Prof. Yiwen Shen](https://isom.hkust.edu.hk/faculty-and-staff/directory/yiwenshen) on Portfolio Allocation in Incomplete Market. I am also been a exchange student in Cornell University, where I was fortunately advised by [Prof. Andreea Minca](https://www.engineering.cornell.edu/faculty-directory/andreea-c-minca) and [Prof. Qiaomin Xie](https://qiaominxie.github.io/).
+During my undergraduate studies, I am been advised by [Prof. Chenxu Li](https://en.gsm.pku.edu.cn/faculty/cxli/), [Prof. Yiwen Shen](https://isom.hkust.edu.hk/faculty-and-staff/directory/yiwenshen) on Portfolio Allocation in Incomplete Market. I am also been an exchange student in Cornell University, where I was fortunately advised by [Prof. Andreea Minca](https://www.engineering.cornell.edu/faculty-directory/andreea-c-minca) and [Prof. Qiaomin Xie](https://qiaominxie.github.io/).      
+
+Now I am going to further my study through pursuing a Ph.D degree in IEOR. 
 
 
-You can find my CV here.
+You can find my CV here [Junyu's CV](../assets/CV_Junyu_Final.pdf).
 
-[Email](guojyjames@gmail.com)/ [Github](https://github.com/JamesJunyuGuo)
+### Contact Me
+Email: guojyjames [at] gmail [dot] com
+
+[Github](https://github.com/JamesJunyuGuo)/[Linkedin](www.linkedin.com/in/junyu-guo-james)
 
 
 
