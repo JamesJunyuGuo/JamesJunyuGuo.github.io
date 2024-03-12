@@ -14,7 +14,7 @@ During my undergraduate studies, I am been advised by [Prof. Chenxu Li](https://
 
 You can find my CV here.
 
-[Email]{guojyjames@gmail.com}/ [Github]{https://github.com/JamesJunyuGuo}
+[Email](guojyjames@gmail.com)/ [Github](https://github.com/JamesJunyuGuo)
 
 
 
