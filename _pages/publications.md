@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap"> My research Experience is demonstrated as follows, feel free to provide your previous suggestions.</div>
+  <div class="wordwrap"> My research Experience is demonstrated as follows, feel free to provide your previous suggestions. </div>
 {% endif %}
 
 {%  %}
