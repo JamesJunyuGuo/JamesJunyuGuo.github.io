@@ -26,7 +26,8 @@ During my leisure time, I love watching football game, playing football and cycl
 You can find my CV here [Junyu's CV](../assets/CV_Junyu_Final.pdf).
 
 ### Contact Me
-To contact me, please do not hesitate to  send email to me.
+To contact me, please do not hesitate to  send email to me.         
+
 Email: guojyjames [at] gmail [dot] com / junyuguo24 [at] berkeley [dot] edu
 
 
