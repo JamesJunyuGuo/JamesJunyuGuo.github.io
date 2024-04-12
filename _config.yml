@@ -13,6 +13,7 @@ title_separator          : "-"
 name                     : &name "Junyu Guo (James)"
 description              : &description "personal description"
 url                      : https://jamesjunyuguo.github.io/ 
+email                    : "guojyjames@gmail.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
