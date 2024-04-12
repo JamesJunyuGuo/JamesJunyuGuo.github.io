@@ -27,8 +27,8 @@ author:
   bio              : "Berkeley IEOR Ph.D student"
   location         : "Berkeley"
   employer         : "University of California, Berkeley"
-  uri              : https://jamesjunyuguo.github.io/# URL
-  email            : "guojyjames@gmail.com" 
+  # uri              : https://jamesjunyuguo.github.io/# URL
+  Linkedin            : "www.linkedin.com/in/junyu-guo-james" 
 
   # Academic websites
   # arxiv            : # URL - Update with the correct link to your profile
@@ -36,7 +36,7 @@ author:
   # impactstory      : # URL
   orcid            : "https://orcid.org/0009-0003-0180-6073"
   github            : "JamesJunyuGuo"
-  Linkedin           : "junyu-guo-james"
+  
 
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   # researchgate     : # URL
