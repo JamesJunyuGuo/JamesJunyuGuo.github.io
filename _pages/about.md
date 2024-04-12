@@ -20,8 +20,6 @@ You can find my CV here [Junyu's CV](../assets/CV_Junyu_Final.pdf).
 ### Contact Me
 Email: guojyjames [at] gmail [dot] com / junyuguo24 [at] berkeley [dot] edu
 
-[Github](https://github.com/JamesJunyuGuo)/[Linkedin](www.linkedin.com/in/junyu-guo-james)/ [ORCID](https://orcid.org/0009-0003-0180-6073)
-
 
 
 
