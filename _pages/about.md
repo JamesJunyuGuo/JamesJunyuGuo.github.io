@@ -18,15 +18,14 @@ During my undergraduate studies, I am been advised by [Prof. Chenxu Li](https://
 I have also been an exchange student at Cornell University, where I was advised by [Prof. Andreea Minca](https://www.engineering.cornell.edu/faculty-directory/andreea-c-minca) and [Prof. Qiaomin Xie](https://qiaominxie.github.io/).     
 
 
-During my leisure time, I love watching football game, playing football and cycling, and I am the fans of Manchester City and FC Barcelona. 
-
-
-
+During my leisure time, I am a football fan of Manchester City and FC Barcelona, I also enjoy travelling and music.   
 
 You can find my CV here [Junyu's CV](../assets/CV_Junyu_Final.pdf).
 
 ### Contact Me
-To contact me, please do not hesitate to  send email to me.         
+To contact me, please do not hesitate to contact me.  
+
+Linkedin: [Click here](www.linkedin.com/in/junyuguo-james)
 
 Email: guojyjames [at] gmail [dot] com / junyuguo24 [at] berkeley [dot] edu
 
