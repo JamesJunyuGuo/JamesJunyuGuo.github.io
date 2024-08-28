@@ -21,7 +21,8 @@ You can find my CV here [Junyu's CV](../assets/CV_Junyu_Final.pdf).
 
 ### Contact Me
 To contact me, see the information below.  
-[Linkedin](www.linkedin.com/in/junyuguo-james)/[ORCID](https://orcid.org/0009-0003-0180-6073)
+[Linkedin](www.linkedin.com/in/junyuguo-james)   
+
 Email: guojyjames [at] gmail [dot] com / junyuguo24 [at] berkeley [dot] edu
 
 
