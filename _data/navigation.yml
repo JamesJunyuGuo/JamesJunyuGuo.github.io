@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Notes"
-    url: /notes/
+  # - title: "Notes"
+  #   url: /notes/
 
   # - title: "Research"
   #   url: /publications/
