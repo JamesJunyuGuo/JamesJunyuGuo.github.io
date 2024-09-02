@@ -1,7 +1,6 @@
 ---
 title: "Non-stationary RL"
 excerpt: "My first note on RL"
-collection: portfolio
 ---
 
 ### Non-Stationary RL    
