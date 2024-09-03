@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Junyu Guo(James), and I am currently a Ph.D student at IEOR department of University of California, Berkeley. In the coming days, I will be  advised by [Prof. Javad Lavaei](https://lavaei.ieor.berkeley.edu/index.html), I will dedicate myself to design more efficient decision-making algorithms for agents under uncertainty.
+My name is Junyu Guo (James), and I am currently a Ph.D student at IEOR department of University of California, Berkeley. In the coming days, I will be  advised by [Prof. Javad Lavaei](https://lavaei.ieor.berkeley.edu/index.html), I will dedicate myself to design more efficient decision-making algorithms for agents under uncertainty.
 
  My research interest includes data-driven sequential decision making and stochastic modelling. Prior to arriving at Berkeley, I was an undergraduate student in the  [Department of Mathematical Science of Tsinghua University](https://www.math.tsinghua.edu.cn/) in Beijing, China.
 During my undergraduate studies, I am been advised by [Prof. Chenxu Li](https://en.gsm.pku.edu.cn/faculty/cxli/), [Prof. Yiwen Shen](https://isom.hkust.edu.hk/faculty-and-staff/directory/yiwenshen) on Portfolio Allocation in Incomplete Market.       
