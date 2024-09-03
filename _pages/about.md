@@ -20,8 +20,7 @@ During my leisure time, I am a football fan of Manchester City and FC Barcelona,
 You can find my CV here [Junyu's CV](../assets/CV_Junyu_Final.pdf).
 
 ### Contact Me
-To contact me, see the information below.  
-Linkedin: www.linkedin.com/in/junyuguo-james      
+To contact me, see the information below.          
 Email: guojyjames [at] gmail [dot] com / junyuguo24 [at] berkeley [dot] edu
 
 
