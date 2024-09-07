@@ -25,5 +25,6 @@ Now I'm trying to understand the big picture of the field in Non-stationary RL. 
 - [Sliding Window Upper-Confidence](https://icml.cc/virtual/2020/poster/5829)
 - [Optimizing for the Future](https://icml.cc/virtual/2020/poster/6316)
 - [Safe Policy Improvement ](https://neurips.cc/virtual/2020/poster/17861)
-- [Dynamic Regret](https://neurips.cc/virtual/2020/poster/18121)
+- [Dynamic Regret](https://neurips.cc/virtual/2020/poster/18121)  
+Usually, the numerical experiemnts are tested on the Grid World and the [MuJoCo](https://ieeexplore.ieee.org/document/6386109) environments to show the efficiency of the algorithm.
 
