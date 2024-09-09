@@ -52,9 +52,9 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
+Course
 ======
-  <ul>{% for post in site.teaching reversed %}
+  <ul>{% for post in site.course reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
