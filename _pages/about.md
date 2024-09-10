@@ -10,9 +10,9 @@ redirect_from:
 My name is Junyu Guo (James), and I am currently a Ph.D student at IEOR department of University of California, Berkeley. In the coming days, I will be  advised by [Prof. Javad Lavaei](https://lavaei.ieor.berkeley.edu/index.html), I will dedicate myself to design more efficient decision-making algorithms for agents under uncertainty.
 
  My research interest includes data-driven sequential decision making and stochastic modelling. Prior to arriving at Berkeley, I was an undergraduate student in the  [Department of Mathematical Science of Tsinghua University](https://www.math.tsinghua.edu.cn/) in Beijing, China.
-During my undergraduate studies, I am been advised by [Prof. Chenxu Li](https://en.gsm.pku.edu.cn/faculty/cxli/), [Prof. Yiwen Shen](https://isom.hkust.edu.hk/faculty-and-staff/directory/yiwenshen) on Portfolio Allocation in Incomplete Market.       
+During my undergraduate studies, I am been advised by [Prof. Chenxu Li](https://en.gsm.pku.edu.cn/faculty/cxli/), [Prof. Yiwen Shen](https://isom.hkust.edu.hk/faculty-and-staff/directory/yiwenshen) on efficient simulation for Portfolio Allocation in Incomplete Market.       
 
-I have also been an exchange student at Cornell University, where I was advised by [Prof. Andreea Minca](https://www.engineering.cornell.edu/faculty-directory/andreea-c-minca) and [Prof. Qiaomin Xie](https://qiaominxie.github.io/).     
+I have also been an exchange student at Cornell University, where I was advised by [Prof. Andreea Minca](https://www.engineering.cornell.edu/faculty-directory/andreea-c-minca) and [Prof. Qiaomin Xie](https://qiaominxie.github.io/), where we were working on RL for Mean Field Game.
 
 
 During my leisure time, I am a football fan of Manchester City and FC Barcelona, I enjoy travelling and music as well. I am also a fan of outdoor activities, I'm really fond of hiking and playing soccer. 
