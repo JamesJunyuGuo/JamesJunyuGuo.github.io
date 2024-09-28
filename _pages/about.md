@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Junyu Guo"
+title: "Welcome to Junyu's Homepage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-My name is Junyu Guo (James), and I am currently a Ph.D student at IEOR department of University of California, Berkeley. In the coming days, I will be  advised by [Prof. Javad Lavaei](https://lavaei.ieor.berkeley.edu/index.html), I will dedicate myself to design more efficient decision-making algorithms for agents under uncertainty.
+My name is Junyu Guo (James), and I am currently a Ph.D student at IEOR department of University of California, Berkeley. I am fortunate to be  advised by [Prof. Javad Lavaei](https://lavaei.ieor.berkeley.edu/index.html), I will dedicate myself to design more efficient decision-making algorithms for agents under uncertainty.
 
  My research interest includes data-driven sequential decision making and stochastic modelling. Prior to arriving at Berkeley, I was an undergraduate student in the  [Department of Mathematical Science of Tsinghua University](https://www.math.tsinghua.edu.cn/) in Beijing, China.
 During my undergraduate studies, I am been advised by [Prof. Chenxu Li](https://en.gsm.pku.edu.cn/faculty/cxli/), [Prof. Yiwen Shen](https://isom.hkust.edu.hk/faculty-and-staff/directory/yiwenshen) on efficient simulation for Portfolio Allocation in Incomplete Market.       
@@ -19,22 +19,23 @@ During my leisure time, I am a football fan of Manchester City and FC Barcelona,
 
 You can find my CV here [Junyu's CV](../assets/CV_Junyu_Final.pdf).
 
-### Contact Me
+## Contact Me
 To contact me, see the information below.          
 Email: guojyjames [at] gmail [dot] com / junyuguo24 [at] berkeley [dot] edu
 
-### Awards    
+## Awards    
 - Wolff Fellowship awarded by UC Berkeley, 2024   
+- Outstanding Graduated Undergrad of Tsinghua University, 2024
 
 
 
-### Courses
-#### Graduate 
+## Courses
+### Graduate 
 - INDENG 268 Applied Dynamic Programming, [textbook](http://www.athenasc.com/dpbook.html), 24 Fall in UC Berkeley.    
 
 
 
-#### Undergraduate
+### Undergraduate
 - Functional Analysis, [textbook](https://www.math.utoronto.ca/almut/Brezis.pdf), 2023 fall in Tsinghua University.      
 - Numerical Analysis, [textbook](https://press.princeton.edu/books/hardcover/9780691151229/numerical-methods), 2022 fall in Tsinghua University.        
 - Real Analysis, [textbook](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://59clc.wordpress.com/wp-content/uploads/2011/01/real-and-complex-analysis.pdf), 2022 spring in Tsinghua University.
