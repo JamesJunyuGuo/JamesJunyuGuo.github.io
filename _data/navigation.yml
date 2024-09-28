@@ -15,9 +15,13 @@ main:
         
   - title: "Blog Posts"
     url: /year-archive/
+
+  - title: "Course"
+    url: /course/
+
     
-  # - title: "CV"
+  # - title: "Courses"
   #   url: /cv/
     
-  # - title: "Guide"
+  # - title: "News"
   #   url: /markdown/
