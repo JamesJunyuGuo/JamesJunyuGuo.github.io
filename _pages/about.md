@@ -21,7 +21,7 @@ You can find my CV here [Junyu's CV](../assets/CV_Junyu_Final.pdf).
 
 ## Contact Me
 To contact me, see the information below.          
-Email: guojyjames [at] gmail [dot] com / junyuguo24 [at] berkeley [dot] edu
+Email: guojyjames (at) gmail (dot) com / junyuguo24 (at) berkeley (dot) edu
 
 ## Awards    
 - Wolff Fellowship awarded by UC Berkeley, 2024   
