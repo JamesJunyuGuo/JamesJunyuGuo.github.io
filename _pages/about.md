@@ -6,6 +6,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<style>
+  body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+</style>
+
 
 #  📝About Me 
 
@@ -27,8 +33,8 @@ You can find my CV here [Junyu's CV](../assets/CV_Junyu_Final.pdf).
 
 ## 💻Contact Me
 To contact me, feel free to send me an email.     
-guojyjames (at) gmail (dot) com  
-junyuguo24 (at) berkeley (dot) edu  
+- guojyjames (at) gmail (dot) com  
+- junyuguo24 (at) berkeley (dot) edu  
 ## 🏆Awards    
 - Wolff Fellowship awarded by UC Berkeley, 2024   
 - Outstanding Graduated Undergrad of Tsinghua University, 2024
