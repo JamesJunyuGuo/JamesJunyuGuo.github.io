@@ -20,12 +20,18 @@ During my leisure time, I am a football fan of Manchester City and FC Barcelona,
 You can find my CV here [Junyu's CV](../assets/CV_Junyu_Final.pdf).
 
 ## Contact Me
-To contact me, see the information below.          
-Email: guojyjames (at) gmail (dot) com / junyuguo24 (at) berkeley (dot) edu
+To contact me, feel free to send me a email.
+<a href="mailto:guojyjames@gmail.com">
+  <button type="button">Send me an Email</button>
+</a>
+guojyjames (at) gmail (dot) com  <!-- HTML button in Markdown -->
+
+junyuguo24 (at) berkeley (dot) edu  [![Email me](https://img.shields.io/badge/Email-Contact%20Me-blue)](mailto:junyuguo24@berkeley.edu)  
 
 ## Awards    
 - Wolff Fellowship awarded by UC Berkeley, 2024   
 - Outstanding Graduated Undergrad of Tsinghua University, 2024
+
 
 
 
