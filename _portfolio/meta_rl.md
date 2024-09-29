@@ -2,7 +2,11 @@
 title: "Meta RL"
 excerpt: "RL Notes 2"
 ---
-
+<style>
+  body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+</style>
 
 Different from Non-stationary RL setting, in meta learning we try to solve a series of tasks using the learned knowledge, which is essentially formulated as 'learning to learn'.    
 For example, in a grid world model where the robot tries to find the target point with a reward starting from different starting points. When the robot learns to execute the task starting from the bottom left corner, in the next task we let it start from the top left corner, but the two tasks share some similarities and we don't want the robot to start learning from scratch. That's where meta-learning works, we can actually let the past knowledge facilitates the current task execution.     
