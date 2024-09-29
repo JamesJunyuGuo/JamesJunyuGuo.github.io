@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+#  📝About Me 
+
 My name is Junyu Guo (James), and I am currently a Ph.D student at IEOR department of University of California, Berkeley. I am fortunate to be  advised by [Prof. Javad Lavaei](https://lavaei.ieor.berkeley.edu/index.html), I will dedicate myself to design more efficient decision-making algorithms for agents under uncertainty.
 
  My research interest includes data-driven sequential decision making and stochastic modelling. Prior to arriving at Berkeley, I was an undergraduate student in the  [Department of Mathematical Science of Tsinghua University](https://www.math.tsinghua.edu.cn/) in Beijing, China.
@@ -19,16 +21,15 @@ During my leisure time, I am a football fan of Manchester City and FC Barcelona,
 
 You can find my CV here [Junyu's CV](../assets/CV_Junyu_Final.pdf).
 
-## Contact Me
+## 🤖Research Interests
+- **Meta RL**: Quick adaptation to non-stationary MDP using the previously learned knowledge. 
+- **Trusworthy AI**: Building AI systems that are understandable and explainable, while addressing fairness and privacy concerns.
 
-
-To contact me, feel free to send me an email.   
-[![Email me](https://img.shields.io/badge/Email-Contact%20Me-blue)](mailto:junyuguo24@berkeley.edu)  
-
-guojyjames (at) gmail (dot) com  <!-- HTML button in Markdown -->
-
+## 💻Contact Me
+To contact me, feel free to send me an email.     
+guojyjames (at) gmail (dot) com  
 junyuguo24 (at) berkeley (dot) edu  
-## Awards    
+## 🏆Awards    
 - Wolff Fellowship awarded by UC Berkeley, 2024   
 - Outstanding Graduated Undergrad of Tsinghua University, 2024
 
