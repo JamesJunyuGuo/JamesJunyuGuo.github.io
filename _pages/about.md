@@ -22,7 +22,7 @@ You can find my CV here [Junyu's CV](../assets/CV_Junyu_Final.pdf).
 ## Contact Me
 
 
-To contact me, feel free to send me a email.   
+To contact me, feel free to send me an email.   
 [![Email me](https://img.shields.io/badge/Email-Contact%20Me-blue)](mailto:junyuguo24@berkeley.edu)  
 
 guojyjames (at) gmail (dot) com  <!-- HTML button in Markdown -->
