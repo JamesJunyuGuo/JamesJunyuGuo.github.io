@@ -4,6 +4,11 @@ title: "Course & Teaching"
 permalink: /course/
 author_profile: true
 ---
+<style>
+  body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+</style>
 
 
 # Courses
