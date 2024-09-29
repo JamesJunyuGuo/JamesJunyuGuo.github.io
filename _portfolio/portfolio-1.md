@@ -2,7 +2,6 @@
 title: "Non-stationary RL"
 excerpt: "My first note on RL"
 ---
-<p style="font-family: 'Times New Roman', Times, serif;">
 
 ### Non-Stationary RL    
 Usually we consider optimizing an objective under a stationary MDP with a fixed transition and reward function. We can learn the optimal policy through policy evaluation and policy improvement steps. However, in a constantly-changing environment where the transition kernal and the reward functions may be unkown, it's crucial for our learners to adapt itself to the environment through interaction and sampling.   
@@ -29,4 +28,4 @@ Now I'm trying to understand the big picture of the field in Non-stationary RL. 
 - [Dynamic Regret](https://neurips.cc/virtual/2020/poster/18121)  
 Usually, the numerical experiemnts are tested on the Grid World and the [MuJoCo](https://ieeexplore.ieee.org/document/6386109) environments to show the efficiency of the algorithm.
 
-</p>
+

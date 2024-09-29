@@ -2,7 +2,6 @@
 title: "Meta RL"
 excerpt: "RL Notes 2"
 ---
-<p style="font-family: 'Times New Roman', Times, serif;">
 
 
 Different from Non-stationary RL setting, in meta learning we try to solve a series of tasks using the learned knowledge, which is essentially formulated as 'learning to learn'.    
@@ -15,6 +14,4 @@ But in the current meta RL field we normally suffer from the three main difficul
 - Catastrophic Forgetting. Start from the simpliest case, suppose there are only two tasks in total $A,B$ and we let the environment oscillates between $A$ and $B$. We hope that after we have learned $A$ (or $B$), the next time we encounter $A$ we can solve it using the learned model without treating it as a new model without any prior knowledge. Promising exploration directions could be first classifying the tasks, and learn the tasks in a classified cluster using meta learning methods.    
 
 - Exploiting and exploration. These two concepts can acutally be compared to a 'egg-chicken problem'. Without good exploration we cannot exploit meaningful features from the environment (see [Decoupling Exploration and Exploitation](https://arxiv.org/abs/2008.02790)). We need to examine whether the data sampling from trajectories actually contain the desired information we need. To solve that we either need some good initialization (especially for task representation method using transformer which are sensitive to initalization, see [Transformer are good meta-learners](https://arxiv.org/abs/2206.06614)).       
-
-</p>
 
