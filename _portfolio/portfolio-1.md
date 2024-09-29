@@ -26,6 +26,19 @@ Now I'm trying to understand the big picture of the field in Non-stationary RL. 
 - [Optimizing for the Future](https://icml.cc/virtual/2020/poster/6316)
 - [Safe Policy Improvement ](https://neurips.cc/virtual/2020/poster/17861)
 - [Dynamic Regret](https://neurips.cc/virtual/2020/poster/18121)  
-Usually, the numerical experiemnts are tested on the Grid World and the [MuJoCo](https://ieeexplore.ieee.org/document/6386109) environments to show the efficiency of the algorithm.
+Usually, the numerical experiemnts are tested on the Grid World and the [MuJoCo](https://ieeexplore.ieee.org/document/6386109)    environments to show the efficiency of the algorithm. 
+
+
+In general, I think there are three ways to deal with the non-stationary environements.   
+
+- Learn task representations through encoder-decoder architectures. By representing a latent variable as a new input to the reward function and the transition kernel, we can account for the non-stationarity. And finally optimize the model by both optimizing the policy part and the probablistic model.   
+
+- Learn good initialization for a new episode, which is essentially a similar idea to meta-learning where we need to learn a meta-policy across different tasks.     
+
+- Context detection. Sometimes the context length may be stochastic, we need to collect the data or trajectories only related to the current context.   
+
+- Knowledge distillation or policy consolidation. To prevent the castrophic forgetting, some work froze the past policy and use them as the input to learn the new environment.
+
+
 
 
