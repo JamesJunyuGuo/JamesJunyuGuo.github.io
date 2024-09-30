@@ -7,11 +7,12 @@ redirect_from:
   - /about.html
 ---
 <style>
+  @import url('https://path-to-cofo-sans-font-source'); /* Example link, replace with actual URL if available */
+
   body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'CoFo Sans', sans-serif;
   }
 </style>
-
 
 ##  📝About Me 
 
