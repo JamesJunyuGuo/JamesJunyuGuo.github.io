@@ -7,11 +7,12 @@ redirect_from:
   - /about.html
 ---
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Meridian&display=swap');
+
   body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Meridian', serif;
   }
 </style>
-
 
 ##  📝About Me 
 
