@@ -13,7 +13,7 @@ redirect_from:
 </style>
 
 
-#  📝About Me 
+##  📝About Me 
 
 My name is Junyu Guo (James), and I am currently a Ph.D student at IEOR department of University of California, Berkeley. I am fortunate to be  advised by [Prof. Javad Lavaei](https://lavaei.ieor.berkeley.edu/index.html), I will dedicate myself to design more efficient decision-making algorithms for agents under uncertainty.
 
