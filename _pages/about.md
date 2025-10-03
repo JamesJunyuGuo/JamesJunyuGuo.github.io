@@ -19,25 +19,6 @@ Beyond research, I am an avid football fan (Manchester City and FC Barcelona), a
 
 You can find my CV here: [Junyu's CV](../assets/CV_Junyu_Final.pdf).
 
-## 📰 News
-
-<div style="max-height: 300px; overflow-y: auto; padding: 15px; background-color: #f8f9fa; border-radius: 8px; border-left: 4px solid #003262;">     
-
-
-  
-- **[Oct 2025]** New Paper [StyleBench: Evaluating thinking styles in Large Language Models](https://arxiv.org/pdf/2509.20868), see our project [link](https://github.com/JamesJunyuGuo/Style_Bench).
-   
-- **[Oct 2025]** Our Paper : [Don’t Trade Off Safety: Diffusion Regularization for Constrained Offline RL](https://arxiv.org/pdf/2502.12391) get accepted by NeurIPS 2025, see our project website [link](https://github.com/JamesJunyuGuo/DRCORL)  
-  
-- **[Oct 2024]** Started my Ph.D. journey at UC Berkeley IEOR Department! 🎓
-  
-- **[Aug 2024]** Awarded the Wolff Fellowship by UC Berkeley
-  
-- **[Jun 2024]** Graduated from Tsinghua University with Outstanding Graduate honor
-
-</div>
-
-**Quick Links:** [📄 Download CV](../assets/CV_Junyu_Final.pdf) | [✉️ Email Me](mailto:junyuguo24@berkeley.edu) |
 
 ## 🤖 Research Interests
 
