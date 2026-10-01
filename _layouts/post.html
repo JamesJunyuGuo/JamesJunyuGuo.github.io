@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{%- assign words = content | strip_html | number_of_words -%}
+{%- assign minutes = words | divided_by: 200 | at_least: 1 -%}
+<article class="wrap">
+  <header class="page-head">
+    <p class="eyebrow"><b>{{ page.kind | default: "Post" }}</b>{% if page.kind == "Blog" %} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% endif %} · {{ minutes }} min read</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.tags.size > 0 %}<div class="page-head__meta">{% for tag in page.tags %}<span class="tag tag--plain">{{ tag }}</span>{% endfor %}</div>{% endif %}
+  </header>
+  <div class="page-body">
+    <div class="prose">
+{{ content }}
+    </div>
+    <nav class="post-foot" aria-label="More writing">
+      {%- if page.kind == "Blog" -%}
+        {% if page.previous %}<a class="prev" href="{{ page.previous.url | relative_url }}"><span>Previous</span><strong>{{ page.previous.title }}</strong></a>{% endif %}
+        {% if page.next %}<a class="next" href="{{ page.next.url | relative_url }}"><span>Next</span><strong>{{ page.next.title }}</strong></a>{% endif %}
+      {%- else -%}
+        <a class="prev" href="{{ '/notes/' | relative_url }}"><span>Back to</span><strong>All notes</strong></a>
+      {%- endif -%}
+    </nav>
+  </div>
+</article>

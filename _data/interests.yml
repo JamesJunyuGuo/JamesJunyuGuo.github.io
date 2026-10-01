@@ -1,0 +1,6 @@
+- title: "Reinforcement Learning"
+  text: "Efficient algorithms for sequential decision-making under uncertainty, with emphasis on meta-RL for quick adaptation to non-stationary environments."
+- title: "LLM Reasoning"
+  text: "Improving the decision-making and reasoning of large language models through uncertainty estimation and quantification."
+- title: "Trustworthy AI"
+  text: "AI systems that are interpretable, explainable, fair and privacy-preserving."

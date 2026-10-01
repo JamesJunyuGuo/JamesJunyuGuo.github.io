@@ -2,12 +2,6 @@
 title: "Non-stationary RL"
 excerpt: "My first note on RL"
 ---
-<style>
-  body {
-    font-family: 'Times New Roman', Times, serif;
-  }
-</style>
-
 ## Non-Stationary RL    
 Usually we consider optimizing an objective under a stationary MDP with a fixed transition and reward function. We can learn the optimal policy through policy evaluation and policy improvement steps. However, in a constantly-changing environment where the transition kernal and the reward functions may be unkown, it's crucial for our learners to adapt itself to the environment through interaction and sampling.   
 

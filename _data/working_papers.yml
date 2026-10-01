@@ -1,0 +1,5 @@
+# Work under review or in progress, shown on /research/ below the papers.
+- title: "Optimal Portfolio Allocation in Incomplete Markets"
+  with: "Prof. Chenxu Li (Peking University) and Prof. Yiwen Shen (HKUST)"
+  status: "Under review at Operations Research"
+  summary: "Decomposes the optimal portfolio policy under CRRA utility and characterizes an investor-specific price of risk for incomplete markets. A backward Monte Carlo algorithm estimates that price of risk and computes the policy, with proven convergence rates and an extension to high dimensions."

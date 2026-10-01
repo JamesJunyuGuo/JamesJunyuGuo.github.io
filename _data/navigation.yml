@@ -1,27 +1,12 @@
-# main links links
+# Links in the top navigation bar
 main:
-
-  # - title: "Research"
-  #   url: /publications/
-
-  # - title: "Talks"
-  #   url: /talks/    
-
-  # - title: "Teaching"
-  #   url: /teaching/    
-    
+  - title: "Research"
+    url: /research/
   - title: "Notes"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-
-  - title: "Course"
+    url: /notes/
+  - title: "Blog"
+    url: /blog/
+  - title: "Courses"
     url: /course/
-
-    
-  # - title: "Courses"
-  #   url: /cv/
-    
-  # - title: "News"
-  #   url: /markdown/
+  - title: "CV"
+    url: /cv/

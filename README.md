@@ -1,41 +1,44 @@
+# jamesjunyuguo.github.io
 
-# Academic Pages
+Personal website of Junyu (James) Guo. Built with Jekyll and served by GitHub Pages:
+push to `master` and the site rebuilds on its own.
 
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
+## Where to edit things
 
-Academic Pages is a Github Pages template for academic websites.
+| I want to...                         | Edit this                                             |
+| ------------------------------------ | ----------------------------------------------------- |
+| Change the bio on the home page      | `_pages/about.md` (the hero sentence is `lead:`)      |
+| Add a news item                      | `_data/news.yml` (add at the top)                     |
+| Add or edit a paper                  | `_data/publications.yml` (`selected: true` shows it on the home page) |
+| Add work under review                | `_data/working_papers.yml`                            |
+| Change the research interest cards   | `_data/interests.yml`                                 |
+| Add a course                         | `_data/courses.yml`                                   |
+| Update the CV page                   | `_data/cv.yml`, and replace `assets/CV_Junyu_Guo.pdf` |
+| Write a blog post                    | new file in `_posts/` named `YYYY-MM-DD-title.md`     |
+| Write a note                         | new file in `_portfolio/` (math with `$...$` works)   |
+| Change name, email, social links     | `_config.yml` under `author:`                         |
+| Change the top navigation            | `_data/navigation.yml`                                |
+| Change colors or fonts               | the tokens at the top of `assets/css/site.css`        |
 
+To use math in a blog post, add `math: true` to its front matter. Notes have it on by default.
 
-# Getting Started
+## Structure
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+- `_layouts/`: `default` (page shell), `home`, `page`, `post` (blog posts and notes)
+- `_includes/`: head, header, footer, social icons, paper card, inline SVG icons
+- `assets/css/site.css`: all styles, plain CSS, light and dark themes
+- `assets/js/site.js`: theme toggle, mobile menu, scroll reveal
+- `assets/fonts/`: self-hosted fonts (Bricolage Grotesque, Inter, Source Serif 4; SIL Open Font License)
 
-See more info at https://academicpages.github.io/
+## Preview locally
 
-## Running Locally
+```bash
+bundle install
+bundle exec jekyll serve --config _config.yml,_config.dev.yml
+```
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+Then open http://localhost:4000.
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+## Credits
 
-
-# Maintenance 
-
-Bug reports and feature requests to the template  should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
-
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
-
-## Bugfixes and enhancements
-
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
-
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+Icons from Lucide (ISC) and Simple Icons (CC0).

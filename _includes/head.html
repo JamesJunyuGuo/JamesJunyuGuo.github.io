@@ -1,21 +1,75 @@
-{% include base_path %}
-
+{%- if page.url == "/" -%}
+  {%- assign page_title = site.author.full_name | append: " · " | append: site.author.affiliation -%}
+{%- elsif page.title -%}
+  {%- assign page_title = page.title | append: " · " | append: site.title -%}
+{%- else -%}
+  {%- assign page_title = site.title -%}
+{%- endif -%}
+{%- assign page_desc = page.description | default: page.excerpt | default: site.description | markdownify | strip_html | strip_newlines | truncate: 180 -%}
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title | escape }}</title>
+<meta name="description" content="{{ page_desc | escape }}">
+<meta name="author" content="{{ site.author.full_name }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
 
-{% include seo.html %}
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ page_title | escape }}">
+<meta property="og:description" content="{{ page_desc | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:image" content="{{ site.author.avatar | absolute_url }}">
+<meta name="twitter:card" content="summary">
+{% if site.author.twitter %}<meta name="twitter:site" content="@{{ site.author.twitter }}">{% endif %}
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#faf8f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#090c16" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="alternate icon" href="{{ '/images/favicon.ico' | relative_url }}" sizes="any">
+<link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
 
 <script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  // Apply the saved theme before first paint.
+  (function () {
+    document.documentElement.classList.add("js");
+    try {
+      var t = localStorage.getItem("theme");
+      if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+  })();
 </script>
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+<link rel="preload" href="{{ '/assets/fonts/bricolage-grotesque-latin-wght-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/fonts/inter-latin-wght-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+{% feed_meta %}
 
-<meta http-equiv="cleartype" content="on">
+{% if page.url == "/" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.author.name | jsonify }},
+  "alternateName": {{ site.author.full_name | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "image": {{ site.author.avatar | absolute_url | jsonify }},
+  "jobTitle": {{ site.author.role | jsonify }},
+  "affiliation": { "@type": "CollegeOrUniversity", "name": {{ site.author.affiliation | jsonify }} },
+  "sameAs": [
+    "https://github.com/{{ site.author.github }}",
+    "https://x.com/{{ site.author.twitter }}",
+    "https://orcid.org/{{ site.author.orcid }}"
+  ]
+}
+</script>
+{%- endif %}
+
+{% if page.math -%}
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [["$", "$"], ["\\(", "\\)"]], displayMath: [["$$", "$$"], ["\\[", "\\]"]] },
+    options: { skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code"] }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{%- endif %}

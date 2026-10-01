@@ -1,0 +1,19 @@
+{%- comment -%} One paper card. Usage: {% include paper.html paper=paper %} {%- endcomment -%}
+{%- assign p = include.paper -%}
+<li class="paper reveal">
+  <div class="paper__year">{{ p.year }}</div>
+  <div>
+    <div class="paper__tags">
+      {%- if p.venue == "Preprint" %}<span class="tag tag--plain">Preprint</span>{% else %}<span class="tag tag--gold">{{ p.venue }} {{ p.year }}</span>{% endif -%}
+      {%- if p.topic %}<span class="tag">{{ p.topic }}</span>{% endif -%}
+    </div>
+    <h3>{{ p.title }}</h3>
+    {% if p.authors and p.authors != "" %}<p class="paper__authors">{{ p.authors | replace: site.author.name, "<b>@@</b>" | replace: "@@", site.author.name }}</p>{% endif %}
+    {% if p.summary %}<p class="paper__summary">{{ p.summary }}</p>{% endif %}
+    {% if p.links %}<div class="paper__links">
+      {%- for l in p.links %}
+      <a class="btn btn--ghost btn--small" href="{{ l.url }}" rel="noopener">{{ l.label }} {% include icon.html name="arrow-up-right" %}</a>
+      {%- endfor %}
+    </div>{% endif %}
+  </div>
+</li>

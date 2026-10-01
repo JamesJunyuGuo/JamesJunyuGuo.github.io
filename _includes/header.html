@@ -1,0 +1,20 @@
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="{{ '/' | relative_url }}"><span class="brand__mark" aria-hidden="true"></span>{{ site.title }}</a>
+    <nav class="nav" aria-label="Main">
+      <ul class="nav__list" id="nav-list">
+        {%- for link in site.data.navigation.main %}
+        <li><a class="nav__link" href="{{ link.url | relative_url }}"{% if page.url contains link.url or page.nav == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
+        {%- endfor %}
+      </ul>
+      <button class="icon-btn theme-toggle" type="button" aria-label="Switch between light and dark theme">
+        <span class="icon--moon">{% include icon.html name="moon" %}</span>
+        <span class="icon--sun">{% include icon.html name="sun" %}</span>
+      </button>
+      <button class="icon-btn nav__toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-list">
+        <span class="icon--menu">{% include icon.html name="menu" %}</span>
+        <span class="icon--close">{% include icon.html name="close" %}</span>
+      </button>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,60 @@
+# Papers shown on /research/ and (those with selected: true) on the home page.
+# Newest first. Fields: title, authors, venue, year, status (optional badge),
+# summary (optional), selected (optional), links (optional list of label + url).
+- title: "When Context Changes: Understanding Update Failures in LLMs"
+  authors: "Junyu Guo, Yuchen Fang, Shangding Gu, Costas Spanos, James Demmel, Javad Lavaei"
+  venue: "Preprint"
+  year: 2026
+  topic: "LLM reasoning"
+  selected: true
+  summary: "LLM agents can answer with an old value of a variable even when the updated one is still in context, a failure we call stale binding. We introduce the Controlled In-Context Memory (CICM) benchmark, trace the failure to attention drifting toward old values, and correct most of these errors by redirecting attention without further training."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2609.38866"
+
+- title: "LLMs Should Express Uncertainty Explicitly"
+  authors: "Junyu Guo, Shangding Gu, Ming Jin, Costas Spanos, Javad Lavaei"
+  venue: "Preprint"
+  year: 2026
+  topic: "LLM reasoning"
+  selected: true
+  summary: "Trains language models to state their uncertainty in two ways: a verbalized confidence score after reasoning, and explicit uncertainty markers during reasoning. This reduces overconfident errors and gives downstream systems such as retrieval-augmented generation a signal to act on."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2604.05306"
+
+- title: "Don't Trade Off Safety: Diffusion Regularization for Constrained Offline RL"
+  authors: "Junyu Guo, Zhi Zheng, Donghao Ying, Ming Jin, Shangding Gu, Costas Spanos, Javad Lavaei"
+  venue: "NeurIPS"
+  year: 2025
+  topic: "Safe RL"
+  selected: true
+  summary: "DRCORL uses a diffusion model to regularize policy learning in offline safe reinforcement learning, and gradient manipulation to resolve conflicts between reward and safety objectives, while keeping inference fast."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2502.12391"
+    - label: "NeurIPS"
+      url: "https://neurips.cc/virtual/2025/poster/116918"
+
+- title: "StyleBench: Evaluating Thinking Styles in Large Language Models"
+  authors: "Junyu Guo, Shangding Gu, Ming Jin, Costas Spanos, Javad Lavaei"
+  venue: "Preprint"
+  year: 2025
+  topic: "LLM reasoning"
+  selected: true
+  summary: "A benchmark that evaluates five reasoning strategies across diverse tasks and model scales, showing when structured reasoning helps and when it only adds cost or new failure modes."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2509.20868"
+    - label: "Code"
+      url: "https://github.com/JamesJunyuGuo/Style_Bench"
+
+- title: "Reinforcement Learning for SBM Graphon Games with Re-Sampling"
+  authors: "Peihan Huo, Oscar Peralta, Junyu Guo, Qiaomin Xie, Andreea Minca"
+  venue: "Preprint"
+  year: 2023
+  topic: "Mean field games"
+  summary: "A reinforcement learning algorithm for multi-population mean field games with graphon structure, with convergence guarantees and experiments on an epidemic model."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2310.16326"
