@@ -77,7 +77,7 @@ layout: default
       <h2 style="font-size: clamp(1.9rem, 4.6vw, 3rem); font-weight: 800; letter-spacing: -0.03em; margin-top: 10px;">What's new</h2>
     </div>
     <ul class="timeline reveal">
-      {%- for item in site.data.news limit: 6 %}
+      {%- for item in site.data.news limit: 8 %}
       <li><span class="when">{{ item.date }}</span><div>{{ item.text | markdownify }}</div></li>
       {%- endfor %}
     </ul>

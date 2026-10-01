@@ -1,6 +1,6 @@
 # Site settings — edit these, then commit and push. GitHub Pages rebuilds the site.
 title: "Junyu Guo"
-description: "Junyu (James) Guo is a Ph.D. student at UC Berkeley working on reinforcement learning, LLM reasoning and trustworthy AI."
+description: "Junyu (James) Guo is a Ph.D. candidate at UC Berkeley working on reinforcement learning, LLM reasoning and trustworthy AI."
 url: "https://jamesjunyuguo.github.io"
 baseurl: ""
 locale: "en-US"
@@ -9,7 +9,7 @@ timezone: America/Los_Angeles
 author:
   name: "Junyu Guo"
   full_name: "Junyu (James) Guo"
-  role: "Ph.D. student"
+  role: "Ph.D. candidate"
   affiliation: "University of California, Berkeley"
   location: "Berkeley, CA"
   avatar: "/images/profile.jpg"

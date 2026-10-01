@@ -2,6 +2,8 @@
 # Add a new item at the top:  - date: "Mon YYYY"  /  text: "Markdown is allowed."
 - date: "Sep 2026"
   text: "New preprint: [When Context Changes: Understanding Update Failures in LLMs](https://arxiv.org/abs/2609.38866)."
+- date: "Jul 2026"
+  text: "Passed my Ph.D. qualifying exam and became a **Ph.D. candidate**."
 - date: "May 2026"
   text: "Joined **TikTok** (Data and Privacy Office, San Jose) as a Machine Learning Engineer Intern."
 - date: "Apr 2026"
