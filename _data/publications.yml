@@ -36,6 +36,21 @@
     - label: "NeurIPS"
       url: "https://neurips.cc/virtual/2025/poster/116918"
 
+- title: "Meta Thinker: Thinking What AI Thinks"
+  authors: "Junyu Guo, Shangding Gu, Costas J. Spanos, Javad Lavaei"
+  venue: "NeurIPS MATH-AI Workshop"
+  year: 2025
+  topic: "LLM reasoning"
+  selected: true
+  summary: "Asks whether LLMs can pick the right reasoning style for a problem on their own. After comparing five reasoning paradigms on mathematical, logical and commonsense benchmarks, we propose a meta-thinking prompt algorithm that selects or synthesizes a style from the input, improving both accuracy and token efficiency."
+  links:
+    - label: "OpenReview"
+      url: "https://openreview.net/forum?id=JiMvrQsZde"
+    - label: "Poster page"
+      url: "https://neurips.cc/virtual/2025/loc/san-diego/131140"
+    - label: "Code"
+      url: "https://github.com/JamesJunyuGuo/meta_thinker_LLM"
+
 - title: "StyleBench: Evaluating Thinking Styles in Large Language Models"
   authors: "Junyu Guo, Shangding Gu, Ming Jin, Costas Spanos, Javad Lavaei"
   venue: "Preprint"
