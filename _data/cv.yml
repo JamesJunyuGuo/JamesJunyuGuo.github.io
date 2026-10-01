@@ -31,6 +31,11 @@ teaching:
     title: "Graduate Student Instructor, INDENG 160: Nonlinear and Discrete Optimization"
     place: "UC Berkeley"
 
+service:
+  - when: "2026 – present"
+    title: "Reviewer"
+    note: "ICML 2026, NeurIPS 2026, COLM 2026, AAAI 2027, ICLR 2027"
+
 awards:
   - when: "2024"
     title: "Wolff Fellowship"
