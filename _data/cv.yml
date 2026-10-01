@@ -31,10 +31,18 @@ teaching:
     title: "Graduate Student Instructor, INDENG 160: Nonlinear and Discrete Optimization"
     place: "UC Berkeley"
 
+# Reviewing and other service. Newest first, like news.yml.
 service:
-  - when: "2026 – present"
-    title: "Reviewer"
-    note: "ICML 2026, NeurIPS 2026, COLM 2026, AAAI 2027, ICLR 2027"
+  - when: "Oct 2026"
+    title: "Reviewer, ICLR 2027"
+  - when: "Aug 2026"
+    title: "Reviewer, AAAI 2027"
+  - when: "May 2026"
+    title: "Reviewer, NeurIPS 2026"
+  - when: "Apr 2026"
+    title: "Reviewer, COLM 2026"
+  - when: "Jan 2026"
+    title: "Reviewer, ICML 2026"
 
 awards:
   - when: "2024"
