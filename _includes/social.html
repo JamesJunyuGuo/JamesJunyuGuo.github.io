@@ -1,6 +1,7 @@
 <ul class="social" aria-label="Profiles">
   {% if site.author.email %}<li><a href="mailto:{{ site.author.email }}" aria-label="Email" title="Email">{% include icon.html name="mail" %}</a></li>{% endif %}
   {% if site.author.googlescholar and site.author.googlescholar != "" %}<li><a href="{{ site.author.googlescholar }}" aria-label="Google Scholar" title="Google Scholar" rel="me noopener">{% include icon.html name="googlescholar" %}</a></li>{% endif %}
+  {% if site.author.linkedin %}<li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn" title="LinkedIn" rel="me noopener">{% include icon.html name="linkedin" %}</a></li>{% endif %}
   {% if site.author.github %}<li><a href="https://github.com/{{ site.author.github }}" aria-label="GitHub" title="GitHub" rel="me noopener">{% include icon.html name="github" %}</a></li>{% endif %}
   {% if site.author.twitter %}<li><a href="https://x.com/{{ site.author.twitter }}" aria-label="X (Twitter)" title="X" rel="me noopener">{% include icon.html name="x" %}</a></li>{% endif %}
   {% if site.author.orcid %}<li><a href="https://orcid.org/{{ site.author.orcid }}" aria-label="ORCID" title="ORCID" rel="me noopener">{% include icon.html name="orcid" %}</a></li>{% endif %}
