@@ -22,6 +22,15 @@ experience:
     place: "Sixie Capital · Shanghai"
     note: "Developed and backtested predictive signals from futures price, volume and order-book data."
 
+teaching:
+  - when: "Fall 2026"
+    title: "Graduate Student Researcher"
+    place: "UC Berkeley · with Prof. Javad Lavaei"
+    note: "Research assistantship supported by NSF funding."
+  - when: "Fall 2025, Spring 2026"
+    title: "Graduate Student Instructor, INDENG 160: Nonlinear and Discrete Optimization"
+    place: "UC Berkeley"
+
 awards:
   - when: "2024"
     title: "Wolff Fellowship"

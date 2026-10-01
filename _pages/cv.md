@@ -8,8 +8,8 @@ redirect_from:
 ---
 <p><a class="btn" href="{{ site.author.cv | relative_url }}">Download PDF {% include icon.html name="download" %}</a></p>
 
-{% assign sections = "education,experience,awards" | split: "," %}
-{% assign titles = "Education,Experience,Honors and awards" | split: "," %}
+{% assign sections = "education,experience,teaching,awards" | split: "," %}
+{% assign titles = "Education,Experience,Teaching and research appointments,Honors and awards" | split: "," %}
 {% for key in sections %}
 <h2 class="subhead">{{ titles[forloop.index0] }}</h2>
 <ul class="cv-list">
@@ -24,7 +24,7 @@ redirect_from:
   </li>
   {%- endfor %}
 </ul>
-{% if key == "experience" %}
+{% if key == "teaching" %}
 <h2 class="subhead">Publications and preprints</h2>
 <ul class="cv-list">
   {%- for p in site.data.publications %}
