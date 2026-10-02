@@ -1,5 +1,7 @@
 # News items shown on the home page, newest first.
 # Add a new item at the top:  - date: "Mon YYYY"  /  text: "Markdown is allowed."
+- date: "Oct 2026"
+  text: "New preprint: [Groundability, Not Scale Alone: When Weak Reviewers Can Audit Strong Coding Agents](https://arxiv.org/abs/2610.01023)."
 - date: "Sep 2026"
   text: "New preprint: [When Context Changes: Understanding Update Failures in LLMs](https://arxiv.org/abs/2609.38866)."
 - date: "Jul 2026"

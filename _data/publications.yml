@@ -1,6 +1,17 @@
 # Papers shown on /research/ and (those with selected: true) on the home page.
 # Newest first. Fields: title, authors, venue, year, status (optional badge),
 # summary (optional), selected (optional), links (optional list of label + url).
+- title: "Groundability, Not Scale Alone: When Weak Reviewers Can Audit Strong Coding Agents"
+  authors: "Junyu Guo, Shangding Gu, Ming Jin, Javad Lavaei"
+  venue: "Preprint"
+  year: 2026
+  topic: "LLM agents"
+  selected: true
+  summary: "Asks when a nominally weaker model can reliably decide whether a coding agent's patch solves its issue. On 411 execution-labeled traces, organizing the evidence is not enough; what matters is groundability, whether an independent check such as a runnable test can answer the disputed question. With grounded evidence, five of six reviewers catch more defects and over-reject less, and reviewer size does not predict quality."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2610.01023"
+
 - title: "When Context Changes: Understanding Update Failures in LLMs"
   authors: "Junyu Guo, Yuchen Fang, Shangding Gu, Costas Spanos, James Demmel, Javad Lavaei"
   venue: "Preprint"
