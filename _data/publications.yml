@@ -7,7 +7,7 @@
   year: 2026
   topic: "LLM agents"
   selected: true
-  summary: "Asks when a nominally weaker model can reliably decide whether a coding agent's patch solves its issue. On 411 execution-labeled traces, organizing the evidence is not enough; what matters is groundability, whether an independent check such as a runnable test can answer the disputed question. With grounded evidence, five of six reviewers catch more defects and over-reject less, and reviewer size does not predict quality."
+  summary: "Coding agents often return patches that look right but omit required behavior. We ask when a nominally weaker model can reliably judge whether such a patch solves its issue. Across 411 execution-labeled traces, organizing the evidence better is not enough: what matters is groundability, whether an independent check such as a runnable test can settle the disputed claim. Given such evidence, five of six reviewers catch more defects while over-rejecting less, and parameter count does not predict review quality."
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2610.01023"
@@ -18,7 +18,7 @@
   year: 2026
   topic: "LLM reasoning"
   selected: true
-  summary: "LLM agents can answer with an old value of a variable even when the updated one is still in context, a failure we call stale binding. We introduce the Controlled In-Context Memory (CICM) benchmark, trace the failure to attention drifting toward old values, and correct most of these errors by redirecting attention without further training."
+  summary: "Even when the updated value of a variable is right there in the context, LLM agents often answer with the old one. We name this failure stale binding, build the Controlled In-Context Memory (CICM) benchmark to isolate it, and trace it to attention drifting back toward outdated values. Redirecting that attention at inference time, with no further training, removes most of the errors."
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2609.38866"
@@ -29,7 +29,7 @@
   year: 2026
   topic: "LLM reasoning"
   selected: true
-  summary: "Trains language models to state their uncertainty in two ways: a verbalized confidence score after reasoning, and explicit uncertainty markers during reasoning. This reduces overconfident errors and gives downstream systems such as retrieval-augmented generation a signal to act on."
+  summary: "A model that sounds equally confident when right and wrong is hard to build on. We train LLMs to express uncertainty in two complementary ways: explicit uncertainty markers while they reason, and a verbalized confidence score once they finish. This cuts overconfident errors and gives downstream systems such as retrieval-augmented generation a signal they can act on."
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2604.05306"
@@ -40,7 +40,7 @@
   year: 2025
   topic: "Safe RL"
   selected: true
-  summary: "DRCORL uses a diffusion model to regularize policy learning in offline safe reinforcement learning, and gradient manipulation to resolve conflicts between reward and safety objectives, while keeping inference fast."
+  summary: "Offline safe RL usually pays for safety with either reward or inference speed. DRCORL uses a diffusion model only as a regularizer, so the learned policy stays simple and fast at inference, and resolves conflicts between reward and safety objectives through gradient manipulation. The result keeps both safety and performance."
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2502.12391"
@@ -53,7 +53,7 @@
   year: 2025
   topic: "LLM reasoning"
   selected: true
-  summary: "Asks whether LLMs can pick the right reasoning style for a problem on their own. After comparing five reasoning paradigms on mathematical, logical and commonsense benchmarks, we propose a meta-thinking prompt algorithm that selects or synthesizes a style from the input, improving both accuracy and token efficiency."
+  summary: "No single reasoning style wins everywhere. After comparing five reasoning paradigms across mathematical, logical and commonsense benchmarks, we propose a meta-thinking prompting algorithm that lets the model choose, or synthesize, a style suited to each input. It raises accuracy while using fewer tokens than committing to one style in advance."
   links:
     - label: "OpenReview"
       url: "https://openreview.net/forum?id=JiMvrQsZde"
@@ -68,7 +68,7 @@
   year: 2025
   topic: "LLM reasoning"
   selected: true
-  summary: "A benchmark that evaluates five reasoning strategies across diverse tasks and model scales, showing when structured reasoning helps and when it only adds cost or new failure modes."
+  summary: "Structured reasoning is not free. StyleBench evaluates five reasoning strategies across diverse tasks and model scales, mapping where structure genuinely helps and where it only adds tokens or introduces new failure modes. The results are a practical guide for matching reasoning style to task and model size."
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2509.20868"
@@ -80,7 +80,7 @@
   venue: "Preprint"
   year: 2023
   topic: "Mean field games"
-  summary: "A reinforcement learning algorithm for multi-population mean field games with graphon structure, with convergence guarantees and experiments on an epidemic model."
+  summary: "Extends mean field games to populations connected through a stochastic block model graphon, and gives a reinforcement learning algorithm with re-sampling that comes with convergence guarantees. Experiments on an epidemic model illustrate the approach."
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2310.16326"
