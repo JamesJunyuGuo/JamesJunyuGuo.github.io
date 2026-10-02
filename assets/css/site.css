@@ -488,9 +488,45 @@ a:hover { text-decoration-thickness: 2.5px; }
 }
 @media (max-width: 860px) { .split { grid-template-columns: 1fr; } }
 
-.bio { font-size: 1.1rem; color: var(--ink-2); max-width: 44em; }
-.bio p:first-child { font-size: 1.25rem; color: var(--ink); line-height: 1.55; }
+/* About me: serif body, display-face lede, quiet links, personal note at the end. */
+.bio {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: var(--ink-2);
+  max-width: 40em;
+  font-feature-settings: "kern", "liga", "onum";
+}
+.bio p { margin: 0 0 1.35em; }
+.bio p:first-child {
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.3vw, 1.6rem);
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 1.1em;
+}
+.bio p:first-child b, .bio p:first-child strong { font-weight: 700; }
+.bio strong, .bio b { color: var(--ink); font-weight: 600; }
+.bio em { font-style: italic; }
+.bio a {
+  color: var(--ink);
+  text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+.bio a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 .bio > :last-child { margin-bottom: 0; }
+.bio p.bio__note, .bio > p:last-of-type {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--ink-3);
+  padding-top: 1.2em;
+  border-top: 1px solid var(--line);
+}
 
 /* ---------- Cards ---------- */
 .grid { display: grid; gap: 18px; }
