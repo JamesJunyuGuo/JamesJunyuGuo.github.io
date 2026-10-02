@@ -8,8 +8,8 @@ redirect_from:
 ---
 <p><a class="btn" href="{{ site.author.cv | relative_url }}">Download PDF {% include icon.html name="download" %}</a></p>
 
-{% assign sections = "education,experience,teaching,service,awards" | split: "," %}
-{% assign titles = "Education,Experience,Teaching and research appointments,Academic service,Honors and awards" | split: "," %}
+{% assign sections = "education,experience,teaching,awards" | split: "," %}
+{% assign titles = "Education,Experience,Teaching and research appointments,Honors and awards" | split: "," %}
 {% for key in sections %}
 <h2 class="subhead">{{ titles[forloop.index0] }}</h2>
 <ul class="cv-list">
@@ -37,5 +37,20 @@ redirect_from:
   </li>
   {%- endfor %}
 </ul>
+{% endif %}
+{% if key == "teaching" %}
+<h2 class="subhead">Academic service</h2>
+<ul class="cv-list">
+  {%- for s in site.data.service.reviewing %}
+  <li class="reveal">
+    <span class="when">{{ s.when }}</span>
+    <div>
+      <h3>{{ s.role }}, {{ s.venue }}</h3>
+      {% if s.note %}<p>{{ s.note }}</p>{% endif %}
+    </div>
+  </li>
+  {%- endfor %}
+</ul>
+<p style="margin-top: -8px"><a class="more-link" href="{{ '/service/' | relative_url }}">All service {% include icon.html name="arrow-right" %}</a></p>
 {% endif %}
 {% endfor %}

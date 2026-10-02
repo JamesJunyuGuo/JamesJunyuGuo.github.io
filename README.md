@@ -14,6 +14,7 @@ push to `master` and the site rebuilds on its own.
 | Change the research interest cards   | `_data/interests.yml`                                 |
 | Add a course                         | `_data/courses.yml`                                   |
 | Add a course I taught                | `_data/teaching.yml`                                  |
+| Add reviewing or other service       | `_data/service.yml` (shows on `/service/` and the CV) |
 | Update the CV page                   | `_data/cv.yml`, and replace `assets/CV_Junyu_Guo.pdf` |
 | Write a blog post                    | new file in `_posts/` named `YYYY-MM-DD-title.md`     |
 | Write a note                         | new file in `_portfolio/` (math with `$...$` works)   |

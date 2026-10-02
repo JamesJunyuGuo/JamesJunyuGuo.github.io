@@ -8,5 +8,7 @@ main:
     url: /blog/
   - title: "Teaching"
     url: /course/
+  - title: "Service"
+    url: /service/
   - title: "CV"
     url: /cv/

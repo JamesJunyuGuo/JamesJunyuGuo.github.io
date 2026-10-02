@@ -1,6 +1,6 @@
 # Content of the /cv/ page. Publications are pulled from publications.yml.
 education:
-  - when: "2024 – 2028 (expected)"
+  - when: "2024 – 2029 (expected)"
     title: "Ph.D. in Industrial Engineering and Operations Research"
     place: "University of California, Berkeley"
     note: "Ph.D. candidate (passed the qualifying exam in July 2026). Advisor: Prof. Javad Lavaei"
@@ -30,19 +30,6 @@ teaching:
   - when: "Fall 2025, Spring 2026"
     title: "Graduate Student Instructor, INDENG 160: Nonlinear and Discrete Optimization"
     place: "UC Berkeley"
-
-# Reviewing and other service. Newest first, like news.yml.
-service:
-  - when: "Oct 2026"
-    title: "Reviewer, ICLR 2027"
-  - when: "Aug 2026"
-    title: "Reviewer, AAAI 2027"
-  - when: "May 2026"
-    title: "Reviewer, NeurIPS 2026"
-  - when: "Apr 2026"
-    title: "Reviewer, COLM 2026"
-  - when: "Jan 2026"
-    title: "Reviewer, ICML 2026"
 
 awards:
   - when: "2024"
