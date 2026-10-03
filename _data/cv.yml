@@ -16,11 +16,21 @@ experience:
   - when: "May 2026 – present"
     title: "Machine Learning Engineer Intern"
     place: "TikTok, Data and Privacy Office · San Jose, CA"
-    note: "Built an agentic workflow that investigates reported production issues and produces structured repair plans, and improved a privacy-review agent for pre-launch features."
+    note: "Built the agent harness for AI root-cause analysis of bug tickets, with parallel retrieval over design docs, configs, logs and past tickets, evidence cross-validation and confidence-gated verdicts, plus a self-improvement loop that evaluates closed tickets and proposes code fixes. Developed a risk-discovery agent that reads requirement docs and the codebase to flag privacy and compliance risks before launch."
   - when: "Jun – Sep 2023"
     title: "Quantitative Research Intern, CTA Strategies"
     place: "Sixie Capital · Shanghai"
     note: "Developed and backtested predictive signals from futures price, volume and order-book data."
+
+skills:
+  - when: "Programming"
+    title: "Python, C++, R, MATLAB, Unix shell, LaTeX"
+  - when: "LLMs and agents"
+    title: "Post-training with reinforcement learning, evaluation and benchmark design, agentic workflows, retrieval-augmented generation"
+  - when: "Interpretability"
+    title: "Probing, logit lens, activation patching, attention analysis"
+  - when: "Reinforcement learning"
+    title: "Offline and safe RL, diffusion policies, constrained policy optimization"
 
 teaching:
   - when: "Fall 2026"
