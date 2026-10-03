@@ -13,7 +13,7 @@ education:
     place: "Cornell University, Ithaca, NY"
 
 experience:
-  - when: "May 2026 – present"
+  - when: "May – Aug 2026"
     title: "Machine Learning Engineer Intern"
     place: "TikTok, Data and Privacy Office · San Jose, CA"
     note: "Built the agent harness for AI root-cause analysis of bug tickets, with parallel retrieval over design docs, configs, logs and past tickets, evidence cross-validation and confidence-gated verdicts, plus a self-improvement loop that evaluates closed tickets and proposes code fixes. Developed a risk-discovery agent that reads requirement docs and the codebase to flag privacy and compliance risks before launch."
