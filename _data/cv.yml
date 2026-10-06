@@ -1,6 +1,6 @@
 # Content of the /cv/ page. Publications are pulled from publications.yml.
 education:
-  - when: "2024 – 2029 (expected)"
+  - when: "2024 – 2028 (expected)"
     title: "Ph.D. in Industrial Engineering and Operations Research"
     place: "University of California, Berkeley"
     note: "Ph.D. candidate (passed the qualifying exam in July 2026). Advisor: Prof. Javad Lavaei"
