@@ -10,6 +10,7 @@ layout: default
       <div class="hero__actions">
         <a class="btn" href="{{ '/research/' | relative_url }}">Read my research {% include icon.html name="arrow-right" %}</a>
         <a class="btn btn--ghost" href="{{ site.author.cv | relative_url }}">Download CV {% include icon.html name="download" %}</a>
+        <a class="btn btn--ghost" href="mailto:{{ site.author.email }}">{% include icon.html name="mail" %} {{ site.author.email }}</a>
       </div>
       {% include social.html %}
     </div>

@@ -42,20 +42,20 @@
 
 /* ---------- Tokens ---------- */
 :root {
-  --bg: #faf8f3;
-  --surface: #ffffff;
-  --surface-2: #f2efe7;
-  --ink: #343945;
-  --ink-2: #565c68;
-  --ink-3: #7f848f;
-  --line: #e7e2d8;
-  --accent: #44648f;
-  --accent-ink: #ffffff;
-  --accent-soft: #e8edf4;
-  --gold: #ddc08a;
-  --gold-soft: #f2e7cd;
-  --shadow: 0 1px 2px rgba(52, 57, 69, 0.04), 0 12px 32px -12px rgba(52, 57, 69, 0.12);
-  --dot: rgba(52, 57, 69, 0.09);
+  --bg: #f7ead7;
+  --surface: #fdf7e9;
+  --surface-2: #f1e3cc;
+  --ink: #41332a;
+  --ink-2: #6e5f51;
+  --ink-3: #8d7d6a;
+  --line: #e6d5b8;
+  --accent: #9c4a21;
+  --accent-ink: #fff8ee;
+  --accent-soft: #f2dfcb;
+  --gold: #dfb876;
+  --gold-soft: #f3e4c4;
+  --shadow: 0 1px 2px rgba(65, 51, 42, 0.05), 0 12px 32px -12px rgba(65, 51, 42, 0.14);
+  --dot: rgba(65, 51, 42, 0.08);
 
   --font-display: "Bricolage Grotesque", "Inter", system-ui, sans-serif;
   --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -72,38 +72,38 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #10131c;
-    --surface: #171b26;
-    --surface-2: #1d2230;
-    --ink: #e3e6ee;
-    --ink-2: #adb3c2;
-    --ink-3: #848a9b;
-    --line: #2a3040;
-    --accent: #93aed2;
-    --accent-ink: #10131c;
-    --accent-soft: #222c3d;
-    --gold: #d4b878;
-    --gold-soft: #3a3422;
+    --bg: #1a1511;
+    --surface: #231d17;
+    --surface-2: #2a231b;
+    --ink: #ede4d7;
+    --ink-2: #c2b5a4;
+    --ink-3: #988a77;
+    --line: #3a3129;
+    --accent: #d89a6a;
+    --accent-ink: #221a12;
+    --accent-soft: #3a2b1f;
+    --gold: #cfa76a;
+    --gold-soft: #3b3122;
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 16px 40px -16px rgba(0, 0, 0, 0.7);
-    --dot: rgba(227, 230, 238, 0.10);
+    --dot: rgba(237, 228, 215, 0.09);
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #10131c;
-  --surface: #171b26;
-  --surface-2: #1d2230;
-  --ink: #e3e6ee;
-  --ink-2: #adb3c2;
-  --ink-3: #848a9b;
-  --line: #2a3040;
-  --accent: #93aed2;
-  --accent-ink: #10131c;
-  --accent-soft: #222c3d;
-  --gold: #d4b878;
-  --gold-soft: #3a3422;
+  --bg: #1a1511;
+  --surface: #231d17;
+  --surface-2: #2a231b;
+  --ink: #ede4d7;
+  --ink-2: #c2b5a4;
+  --ink-3: #988a77;
+  --line: #3a3129;
+  --accent: #d89a6a;
+  --accent-ink: #221a12;
+  --accent-soft: #3a2b1f;
+  --gold: #cfa76a;
+  --gold-soft: #3b3122;
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 16px 40px -16px rgba(0, 0, 0, 0.7);
-  --dot: rgba(227, 230, 238, 0.10);
+  --dot: rgba(237, 228, 215, 0.09);
   color-scheme: dark;
 }
 
@@ -156,7 +156,7 @@ a:hover { text-decoration-thickness: 2.5px; }
   border-radius: 4px;
 }
 
-::selection { background: var(--gold); color: #343945; }
+::selection { background: var(--gold); color: #41332a; }
 
 .wrap {
   width: 100%;
@@ -322,19 +322,19 @@ a:hover { text-decoration-thickness: 2.5px; }
   gap: 10px;
   padding: 13px 22px;
   border-radius: 999px;
-  border: 1.5px solid var(--ink);
-  background: var(--ink);
-  color: var(--bg);
+  border: 1.5px solid var(--accent);
+  background: var(--accent);
+  color: var(--accent-ink);
   font-weight: 600;
   font-size: 0.98rem;
   line-height: 1.2;
   text-decoration: none;
   transition: transform 0.15s, box-shadow 0.15s;
 }
-.btn:hover { transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--gold); }
-.btn--ghost { background: transparent; color: var(--ink); }
+.btn:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.btn--ghost { background: transparent; color: var(--ink); border-color: var(--ink); }
 .btn--small { padding: 7px 14px; font-size: 0.85rem; border-width: 1px; gap: 6px; }
-.btn--small:hover { box-shadow: 3px 3px 0 var(--gold); }
+.btn--small:hover { box-shadow: var(--shadow); }
 
 .more-link {
   display: inline-flex;
@@ -579,7 +579,7 @@ a.card .card__cta .icon { transition: transform 0.15s; }
   text-transform: uppercase;
   white-space: nowrap;
 }
-.tag--gold { background: var(--gold); color: #3c3526; }
+.tag--gold { background: var(--gold); color: #41332a; }
 .tag--plain { background: var(--surface-2); color: var(--ink-2); }
 
 /* ---------- Papers ---------- */
