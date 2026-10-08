@@ -2,49 +2,42 @@
 layout: default
 ---
 <section class="hero">
-  <div class="wrap hero__grid">
-    <div>
-      <p class="eyebrow"><b>{{ site.author.role }}</b> · UC Berkeley</p>
-      <h1>Junyu <span class="aka">(James)</span> <span class="mark">Guo</span></h1>
-      <p class="hero__lead">{{ page.lead }}</p>
-      <div class="hero__actions">
-        <a class="btn" href="{{ '/research/' | relative_url }}">Read my research {% include icon.html name="arrow-right" %}</a>
-        <a class="btn btn--ghost" href="{{ site.author.cv | relative_url }}">Download CV {% include icon.html name="download" %}</a>
-        <a class="btn btn--ghost" href="mailto:{{ site.author.email }}">{% include icon.html name="mail" %} {{ site.author.email }}</a>
+  <div class="wrap">
+    <div class="hero__card">
+      <div>
+        <p class="eyebrow"><b>{{ site.author.role }}</b> · UC Berkeley</p>
+        <h1>Junyu <span class="aka">(James)</span> Guo</h1>
+        <p class="hero__lead">{{ page.lead }}</p>
+        <div class="hero__actions">
+          <a class="btn" href="{{ '/research/' | relative_url }}">Read my research {% include icon.html name="arrow-right" %}</a>
+          <a class="btn btn--ghost" href="{{ site.author.cv | relative_url }}">Download CV {% include icon.html name="download" %}</a>
+        </div>
+        {% include social.html %}
       </div>
-      {% include social.html %}
-    </div>
-    <div class="portrait">
-      <img src="{{ site.author.avatar | relative_url }}" alt="Portrait of {{ site.author.full_name }}" width="600" height="600">
-      <span class="portrait__chip">{% include icon.html name="map-pin" %} {{ site.author.location }}</span>
+      <div class="portrait">
+        <img src="{{ site.author.avatar | relative_url }}" alt="Portrait of {{ site.author.full_name }}" width="600" height="600">
+        <span class="portrait__chip">{% include icon.html name="map-pin" %} {{ site.author.location }}</span>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="section" id="about">
-  <div class="wrap split">
-    <div class="reveal">
-      <p class="eyebrow"><b>01</b> / About</p>
-      <h2 style="font-size: clamp(1.9rem, 4.6vw, 3rem); font-weight: 800; letter-spacing: -0.03em; margin-top: 10px;">About me</h2>
-    </div>
+  <div class="wrap">
+    <div class="section__label reveal"><span>About me</span></div>
     <div class="bio reveal">
 {{ content }}
     </div>
   </div>
 </section>
 
-<section class="section section--tint" id="interests">
+<section class="section" id="interests">
   <div class="wrap">
-    <div class="section__head reveal">
-      <div>
-        <p class="eyebrow"><b>02</b> / Focus</p>
-        <h2>Research interests</h2>
-      </div>
-    </div>
+    <div class="section__label reveal"><span>Research areas</span></div>
     <div class="grid grid--3">
+      {%- assign area_colors = "#6b8f5e,#9c4a21,#44648f" | split: "," %}
       {%- for item in site.data.interests %}
-      <div class="card card--interest reveal" style="--d: {{ forloop.index0 | times: 80 }}ms">
-        <div class="card__num" aria-hidden="true">0{{ forloop.index }}</div>
+      <div class="card card--area reveal" style="--area: {{ area_colors[forloop.index0] }}; --d: {{ forloop.index0 | times: 80 }}ms">
         <h3>{{ item.title }}</h3>
         <p>{{ item.text }}</p>
       </div>
@@ -55,13 +48,7 @@ layout: default
 
 <section class="section" id="papers">
   <div class="wrap">
-    <div class="section__head reveal">
-      <div>
-        <p class="eyebrow"><b>03</b> / Research</p>
-        <h2>Selected papers</h2>
-      </div>
-      <a class="more-link" href="{{ '/research/' | relative_url }}">All research {% include icon.html name="arrow-right" %}</a>
-    </div>
+    <div class="section__label reveal"><span>Selected papers</span><a class="more-link" href="{{ '/research/' | relative_url }}">All research {% include icon.html name="arrow-right" %}</a></div>
     <ul class="papers">
       {%- assign selected = site.data.publications | where: "selected", true %}
       {%- for paper in selected %}
@@ -72,11 +59,8 @@ layout: default
 </section>
 
 <section class="section" id="news">
-  <div class="wrap split">
-    <div class="reveal">
-      <p class="eyebrow"><b>04</b> / News</p>
-      <h2 style="font-size: clamp(1.9rem, 4.6vw, 3rem); font-weight: 800; letter-spacing: -0.03em; margin-top: 10px;">What's new</h2>
-    </div>
+  <div class="wrap">
+    <div class="section__label reveal"><span>News</span></div>
     <ul class="timeline reveal">
       {%- for item in site.data.news limit: 9 %}
       <li><span class="when">{{ item.date }}</span><div>{{ item.text | markdownify }}</div></li>
@@ -85,45 +69,25 @@ layout: default
   </div>
 </section>
 
-<section class="section section--tint" id="writing">
-  <div class="wrap">
-    <div class="section__head reveal">
-      <div>
-        <p class="eyebrow"><b>05</b> / Writing</p>
-        <h2>Notes &amp; blog</h2>
-      </div>
-      <a class="more-link" href="{{ '/blog/' | relative_url }}">All posts {% include icon.html name="arrow-right" %}</a>
-    </div>
-    <div class="grid grid--3">
-      {%- for note in site.portfolio limit: 2 %}
-      <a class="card reveal" href="{{ note.url | relative_url }}" style="--d: {{ forloop.index0 | times: 80 }}ms">
-        <div class="card__meta"><span class="tag">Note</span></div>
-        <h3>{{ note.title }}</h3>
-        <p>{{ note.content | strip_html | truncatewords: 22 }}</p>
-        <span class="card__cta">Read note {% include icon.html name="arrow-right" %}</span>
-      </a>
-      {%- endfor %}
-      {%- for post in site.posts limit: 1 %}
-      <a class="card reveal" href="{{ post.url | relative_url }}" style="--d: 160ms">
-        <div class="card__meta"><span class="tag tag--plain">Blog · {{ post.date | date: "%b %Y" }}</span></div>
-        <h3>{{ post.title }}</h3>
-        <p>{{ post.content | strip_html | truncatewords: 22 }}</p>
-        <span class="card__cta">Read post {% include icon.html name="arrow-right" %}</span>
-      </a>
-      {%- endfor %}
-    </div>
-  </div>
-</section>
-
 <section class="section" id="contact">
   <div class="wrap">
-    <div class="contact reveal">
-      <p class="eyebrow">06 / Contact</p>
-      <h2>Let's talk research.</h2>
-      <p>I'm always glad to hear from people working on reinforcement learning, LLM reasoning or trustworthy AI. Email is the best way to reach me.</p>
-      <div class="contact__emails">
-        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-        {% if site.author.email_alt %}<a href="mailto:{{ site.author.email_alt }}">{{ site.author.email_alt }}</a>{% endif %}
+    <div class="section__label reveal"><span>Contact</span></div>
+    <p class="contact-lead reveal">The best way to reach me is email. I'm always glad to hear from people working on reinforcement learning, LLM reasoning or trustworthy AI.</p>
+    <div class="contact-grid">
+      <a class="contact-item reveal" href="mailto:{{ site.author.email }}">
+        {% include icon.html name="mail" %}<div><small>Email</small><strong>{{ site.author.email }}</strong></div>
+      </a>
+      {% if site.author.email_alt %}<a class="contact-item reveal" href="mailto:{{ site.author.email_alt }}" style="--d: 60ms">
+        {% include icon.html name="mail" %}<div><small>Berkeley email</small><strong>{{ site.author.email_alt }}</strong></div>
+      </a>{% endif %}
+      {% if site.author.linkedin %}<a class="contact-item reveal" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" rel="me noopener" style="--d: 120ms">
+        {% include icon.html name="linkedin" %}<div><small>LinkedIn</small><strong>in/{{ site.author.linkedin }}</strong></div>
+      </a>{% endif %}
+      {% if site.author.twitter %}<a class="contact-item reveal" href="https://x.com/{{ site.author.twitter }}" rel="me noopener" style="--d: 180ms">
+        {% include icon.html name="x" %}<div><small>X (Twitter)</small><strong>@{{ site.author.twitter }}</strong></div>
+      </a>{% endif %}
+      <div class="contact-item reveal" style="--d: 240ms">
+        {% include icon.html name="map-pin" %}<div><small>Office</small><strong>IEOR Department, UC Berkeley · {{ site.author.location }}</strong></div>
       </div>
     </div>
   </div>
