@@ -45,17 +45,17 @@
   --bg: #faf8f3;
   --surface: #ffffff;
   --surface-2: #f2efe7;
-  --ink: #0d1220;
-  --ink-2: #434a5b;
-  --ink-3: #676e80;
-  --line: #e3ded2;
-  --accent: #2238dc;
+  --ink: #343945;
+  --ink-2: #565c68;
+  --ink-3: #7f848f;
+  --line: #e7e2d8;
+  --accent: #44648f;
   --accent-ink: #ffffff;
-  --accent-soft: #e6e9ff;
-  --gold: #f7b500;
-  --gold-soft: #ffe9a8;
-  --shadow: 0 1px 2px rgba(13, 18, 32, 0.05), 0 12px 32px -12px rgba(13, 18, 32, 0.18);
-  --dot: rgba(13, 18, 32, 0.13);
+  --accent-soft: #e8edf4;
+  --gold: #ddc08a;
+  --gold-soft: #f2e7cd;
+  --shadow: 0 1px 2px rgba(52, 57, 69, 0.04), 0 12px 32px -12px rgba(52, 57, 69, 0.12);
+  --dot: rgba(52, 57, 69, 0.09);
 
   --font-display: "Bricolage Grotesque", "Inter", system-ui, sans-serif;
   --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -72,38 +72,38 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #090c16;
-    --surface: #111627;
-    --surface-2: #171d33;
-    --ink: #eef0f7;
-    --ink-2: #b7bccd;
-    --ink-3: #868da4;
-    --line: #232a44;
-    --accent: #97a6ff;
-    --accent-ink: #0a0e1a;
-    --accent-soft: #1b2350;
-    --gold: #ffc42e;
-    --gold-soft: #4a3a08;
+    --bg: #10131c;
+    --surface: #171b26;
+    --surface-2: #1d2230;
+    --ink: #e3e6ee;
+    --ink-2: #adb3c2;
+    --ink-3: #848a9b;
+    --line: #2a3040;
+    --accent: #93aed2;
+    --accent-ink: #10131c;
+    --accent-soft: #222c3d;
+    --gold: #d4b878;
+    --gold-soft: #3a3422;
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 16px 40px -16px rgba(0, 0, 0, 0.7);
-    --dot: rgba(238, 240, 247, 0.12);
+    --dot: rgba(227, 230, 238, 0.10);
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #090c16;
-  --surface: #111627;
-  --surface-2: #171d33;
-  --ink: #eef0f7;
-  --ink-2: #b7bccd;
-  --ink-3: #868da4;
-  --line: #232a44;
-  --accent: #97a6ff;
-  --accent-ink: #0a0e1a;
-  --accent-soft: #1b2350;
-  --gold: #ffc42e;
-  --gold-soft: #4a3a08;
+  --bg: #10131c;
+  --surface: #171b26;
+  --surface-2: #1d2230;
+  --ink: #e3e6ee;
+  --ink-2: #adb3c2;
+  --ink-3: #848a9b;
+  --line: #2a3040;
+  --accent: #93aed2;
+  --accent-ink: #10131c;
+  --accent-soft: #222c3d;
+  --gold: #d4b878;
+  --gold-soft: #3a3422;
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 16px 40px -16px rgba(0, 0, 0, 0.7);
-  --dot: rgba(238, 240, 247, 0.12);
+  --dot: rgba(227, 230, 238, 0.10);
   color-scheme: dark;
 }
 
@@ -156,7 +156,7 @@ a:hover { text-decoration-thickness: 2.5px; }
   border-radius: 4px;
 }
 
-::selection { background: var(--gold); color: #0d1220; }
+::selection { background: var(--gold); color: #343945; }
 
 .wrap {
   width: 100%;
@@ -579,7 +579,7 @@ a.card .card__cta .icon { transition: transform 0.15s; }
   text-transform: uppercase;
   white-space: nowrap;
 }
-.tag--gold { background: var(--gold); color: #0d1220; }
+.tag--gold { background: var(--gold); color: #3c3526; }
 .tag--plain { background: var(--surface-2); color: var(--ink-2); }
 
 /* ---------- Papers ---------- */
